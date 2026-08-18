@@ -8,8 +8,8 @@ function App() {
     <>
       <nav>
         <Link to="/dashboard">Dashboard</Link>
-        <Link to="/shop">Shop</Link>
-        <Link to="/inventory">Inventory</Link>
+        <Link to="/armory">Shop</Link>
+        <Link to="/warriors">Inventory</Link>
       </nav>
       <main>
         <Outlet />

@@ -4,16 +4,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import "./index.css";
-import Inventory from "./pages/Inventory.jsx";
-import Shop from "./pages/Shop.jsx";
+import Armory from "./pages/Armory.jsx";
+import Warriors from "./pages/Warriors.jsx";
 
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
       { path: "/dashboard", element: <Dashboard /> },
-      { path: "/inventory", element: <Inventory /> },
-      { path: "/shop", element: <Shop /> },
+      { path: "/armory", element: <Armory /> },
+      { path: "/warriors", element: <Warriors /> },
     ],
   },
 ]);

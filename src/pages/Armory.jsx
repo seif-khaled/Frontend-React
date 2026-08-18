@@ -1,4 +1,4 @@
-const Inventory = () => {
+const Armory = () => {
   return (
     <div>
       <h1>Inventory page</h1>
@@ -6,4 +6,4 @@ const Inventory = () => {
   );
 };
 
-export default Inventory;
+export default Armory;
