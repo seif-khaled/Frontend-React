@@ -4,34 +4,39 @@
     "type": "infantry",
     "stipendRequired": 50,
     "armor": "",
-    "weapon": ""
+    "weapon": "",
+    "image": ""
   },
   {
     "rank": "lower rank samurai ",
     "type": "cavalry",
     "stipendRequired": 50,
     "armor": "",
-    "weapon": ""
+    "weapon": "",
+    "image": ""
   },
   {
     "rank": "middle rank samurai ",
     "type": "archers",
     "stipendRequired": 50,
     "armor": "",
-    "weapon": ""
+    "weapon": "",
+    "image": ""
   },
   {
     "rank": "upper rank samurai ",
     "type": "heavy infantry",
     "stipendRequired": 50,
     "armor": "",
-    "weapon": ""
+    "weapon": "",
+    "image": ""
   },
   {
     "rank": "shogun",
     "type": "commander",
     "stipendRequired": 50,
     "armor": "",
-    "weapon": ""
+    "weapon": "",
+    "image": ""
   }
 ]

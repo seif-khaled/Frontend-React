@@ -1,9 +1,34 @@
 [
-    {"weaponName":"Katana",
-    "category":"Swords","length":90,
-    "description":"The Katana is a well-known curved sword with a single sharp edge, famously used by Japanese samurais. They wielded it with both hands, and its sleek, efficient design made it useful in many situations. Because of this, the samurai cherished it deeply, seeing it almost as an extension of their own souls. Today, the Katana continues to be a favorite sword and holds significant cultural value in Japan as a cherished icon of their rich tradition.",
-    "price":,},
-    {"weaponName":"Nodachi","category":"Swords","length":130,"description":"the largest Japanese sword. Often referred to as the great or battlefield blade, its massive size offered samurais a distinct advantage.","price":,},
-    {"weaponName":"Yumi","category":"Bows","length":221,"description":,"price":,},
-    {"weaponName":" Wakizashi","category":"Swords","length":,"description":,"price":,},
+  {
+    "weaponName": "Katana",
+    "category": "Swords",
+    "length": 90,
+    "description": "The Katana is a well-known curved sword with a single sharp edge, famously used by Japanese samurais. They wielded it with both hands, and its sleek, efficient design made it useful in many situations. Because of this, the samurai cherished it deeply, seeing it almost as an extension of their own souls. Today, the Katana continues to be a favorite sword and holds significant cultural value in Japan as a cherished icon of their rich tradition.",
+    "price": 1000,
+    "image": ""
+  },
+  {
+    "weaponName": "Nodachi",
+    "category": "Swords",
+    "length": 130,
+    "description": "the largest Japanese sword. Often referred to as the great or battlefield blade, its massive size offered samurais a distinct advantage.",
+    "price": 1200,
+    "image": ""
+  },
+  {
+    "weaponName": "Yumi",
+    "category": "Bows",
+    "length": 221,
+    "description": "a Japanese longbow and the samurai's primary weapon . Samurai mostly used them on horseback in a type of Japanese archery called Yabusame",
+    "price": 4000,
+    "image": ""
+  },
+  {
+    "weaponName": " Wakizashi",
+    "category": "Swords",
+    "length": 60,
+    "description": "a shorter Japanese sword, typically carried by samurais as a secondary weapon.",
+    "price": 7000,
+    "image": ""
+  }
 ]
