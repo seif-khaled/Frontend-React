@@ -1,29 +1,33 @@
 [
   {
+    "title": "Ashigaru",
     "rank": "foot soldier",
     "type": "infantry",
     "stipendRequired": 50,
-    "armor": "",
-    "weapon": "",
+    "armor": " light armor and conical iron hats",
+    "weapon": "long spears , bows",
     "image": ""
   },
   {
+    "title": "Goshi",
     "rank": "lower rank samurai ",
     "type": "cavalry",
     "stipendRequired": 50,
-    "armor": "",
-    "weapon": "",
+    "armor": "traditional armor",
+    "weapon": "katana and wakizashi",
     "image": ""
   },
   {
+    "title": "Hatamoto",
     "rank": "middle rank samurai ",
     "type": "archers",
     "stipendRequired": 50,
-    "armor": "",
-    "weapon": "",
+    "armor": "High-quality, personalized custom armor.",
+    "weapon": "Master-crafted swords, spears, and polearms (naginata)",
     "image": ""
   },
   {
+    "title": "Daimyo",
     "rank": "upper rank samurai ",
     "type": "heavy infantry",
     "stipendRequired": 50,
@@ -32,7 +36,8 @@
     "image": ""
   },
   {
-    "rank": "shogun",
+    "title": "Shogun",
+    "rank": "Supreme Commander",
     "type": "commander",
     "stipendRequired": 50,
     "armor": "",
