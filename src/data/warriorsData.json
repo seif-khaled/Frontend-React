@@ -1,47 +1,47 @@
 [
   {
     "title": "Ashigaru",
-    "rank": "foot soldier",
-    "type": "infantry",
-    "stipendRequired": 50,
-    "armor": " light armor and conical iron hats",
-    "weapon": "long spears , bows",
-    "image": ""
+    "rank": "Foot Soldier",
+    "type": "Infantry",
+    "stipendRequired": 5,
+    "armor": " Light Armor and Conical Iron Hats",
+    "weapon": "Long Spears , Bows",
+    "image": "../assets/images/warriors-images/ashigaru.jpg"
   },
   {
-    "title": "Goshi",
-    "rank": "lower rank samurai ",
-    "type": "cavalry",
+    "title": "Kachi",
+    "rank": "Lower Rank Samurai ",
+    "type": "Cavalry",
     "stipendRequired": 50,
-    "armor": "traditional armor",
-    "weapon": "katana and wakizashi",
-    "image": ""
+    "armor": "Traditional Armor",
+    "weapon": "Katana and Wakizashi",
+    "image": "../assets/images/warriors-images/kachi.jpg"
   },
   {
     "title": "Hatamoto",
-    "rank": "middle rank samurai ",
-    "type": "archers",
-    "stipendRequired": 50,
+    "rank": "Middle Rank Samurai ",
+    "type": "Archers",
+    "stipendRequired": 5000,
     "armor": "High-quality, personalized custom armor.",
     "weapon": "Master-crafted swords, spears, and polearms (naginata)",
-    "image": ""
+    "image": "../assets/images/warriors-images/hatamoto.jpg"
   },
   {
     "title": "Daimyo",
-    "rank": "upper rank samurai ",
-    "type": "heavy infantry",
-    "stipendRequired": 50,
-    "armor": "",
-    "weapon": "",
-    "image": ""
+    "rank": "Upper Rank Samurai ",
+    "type": "Warlords",
+    "stipendRequired": 100000,
+    "armor": "Kabuto Helmet and Heavy Ceremonial Armor",
+    "weapon": "Ceremonial Tachi , Gunsen",
+    "image": "../assets/images/warriors-images/Daimyo.jpg"
   },
   {
     "title": "Shogun",
     "rank": "Supreme Commander",
-    "type": "commander",
-    "stipendRequired": 50,
-    "armor": "",
-    "weapon": "",
-    "image": ""
+    "type": "Commander",
+    "stipendRequired": 5000000,
+    "armor": "Masterpiece , Heirloom Imperial Armor",
+    "weapon": "Sacred Heirloom Swords",
+    "image": "../assets/images/warriors-images/Shogun.jpg"
   }
 ]
