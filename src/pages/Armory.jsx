@@ -1,7 +1,9 @@
 const Armory = () => {
   return (
-    <div>
-      <h1>Inventory page</h1>
+    <div className="container">
+      <h1>Armory</h1>
+      
+      <div className="card"></div>
     </div>
   );
 };
