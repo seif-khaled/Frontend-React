@@ -1,0 +1,11 @@
+{
+    "_id":"ProfileConfiguration_01",
+    "name":"Profile Configuration",
+    "description":"Configuration for the profile",
+    "pointRequiredForLevel_1":500,
+    "baseGoldAmount":500,
+    "baseMultiplierPerLevelForPointRequired":1.5,
+    "baseMultiplierPerMileStoneLevelForPointsRequired":2,
+    "mileStoneEach_N_Level":5,
+
+}

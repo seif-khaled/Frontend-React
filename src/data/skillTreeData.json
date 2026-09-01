@@ -1,0 +1,40 @@
+[
+    {
+        "_id":"Experience_01",
+        "name":"Experience Per Customer",
+        "description":"Increase experience gained per customer by 20% per level, 40% for last level , max 120% increase",
+        "icon":"experience_01.png",
+        "numberOfPointsRequiredPerLevel": 2,
+        "maxLevelPointsRequired":5,
+        "numberOfLevels": 5
+    },
+    {
+        "_id":"Temper_01",
+        "name":"Customer Temper",
+        "description":"Decrease customer temper bar filling rate by 10% per level to a maximum of 50% for last level ",
+        "icon":"temper_01.png",
+        "numberOfPointsRequiredPerLevel": 2,
+        "maxLevelPointsRequired":4,
+        "numberOfLevels": 5
+
+    },
+    {
+        "_id":"Quality_01",
+        "name":"Weapon Quality",
+        "description":"Increase the chance of crafting higher quality equipment by 5% per level , max 50% for last level ",
+        "icon":"quality_01.png",
+        "numberOfPointsRequiredPerLevel": 2,
+        "maxLevelPointsRequired":6,
+        "numberOfLevels": 10
+    },
+    {
+        
+
+    },
+    {
+
+    },
+    {
+
+    }
+]
