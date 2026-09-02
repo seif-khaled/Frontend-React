@@ -1,11 +1,13 @@
 {
-    "_id":"ProfileConfiguration_01",
-    "name":"Profile Configuration",
-    "description":"Configuration for the profile",
-    "pointRequiredForLevel_1":500,
-    "baseGoldAmount":500,
-    "baseMultiplierPerLevelForPointRequired":1.5,
-    "baseMultiplierPerMileStoneLevelForPointsRequired":2,
-    "mileStoneEach_N_Level":5,
-
+  "_id": "ProfileConfiguration_01",
+  "name": "Profile Configuration",
+  "description": "Configuration for the profile",
+  "pointsRequiredForLevel_1": 500,
+  "baseGoldAmount": 500,
+  "baseMultiplierPerLevelForPointsRequired": 2,
+  "baseMultiplierPerMileStoneLevelForPointsRequired": 2,
+  "mileStoneEach_N_Level": 5,
+  "baseHealth": 100,
+  "pointMultiplierPerLevel": 5,
+  "maxPointMultiplierCapForPlayer": 180
 }

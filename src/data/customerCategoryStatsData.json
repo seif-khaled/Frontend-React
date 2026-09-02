@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "Ashigaru_01",
+    "name": "Ashigaru",
+    "totalPatienceInMinutes": 4,
+    "ImpatientThresholdInPercent": 70,
+    "FuriousThresholdInPercent": 90,
+    "dmg": 5,
+    "baseXpPointsAwarded": 150,
+    "baseGoldAmountAwarded": 300,
+    "weaponsChoices": ["Long Spears", "Bows"],
+    "armorChoices": ["Light Armor", "Conical Iron Hats"]
+  },
+  {
+    "_id": "Kachi_01",
+    "name": "Kachi",
+    "totalPatienceInMinutes": 3,
+    "ImpatientThresholdInPercent": 60,
+    "FuriousThresholdInPercent": 85,
+    "dmg": 10,
+    "baseXpPointsAwarded": 300,
+    "baseGoldAmountAwarded": 400,
+    "weaponsChoices": ["Katana", "Wakizashi", "Lance"],
+    "armorChoices": ["Heavy Armor", "Scale Mail"]
+  },
+  {
+    "_id": "Hatamoto_01",
+    "name": "Hatamoto",
+    "totalPatienceInMinutes": 2.5,
+    "ImpatientThresholdInPercent": 50,
+    "FuriousThresholdInPercent": 80,
+    "dmg": 35,
+    "baseXpPointsAwarded": 500,
+    "baseGoldAmountAwarded": 600,
+    "weaponsChoices": ["Lance", "Katana"],
+    "armorChoices": ["Medium Armor", "Plate Mail"]
+  },
+  {
+    "_id": "Daimyo_01",
+    "name": "Daimyo",
+    "totalPatienceInMinutes": 1.5,
+    "ImpatientThresholdInPercent": 40,
+    "FuriousThresholdInPercent": 70,
+    "dmg": 60,
+    "baseXpPointsAwarded": 1000,
+    "baseGoldAmountAwarded": 1500,
+    "weaponsChoices": ["Ceremonial Tachi"],
+    "armorChoices": ["Kabuto Helmet", "Heavy Ceremonial Armor"]
+  },
+  {
+    "_id": "Shogun_01",
+    "name": "Shogun",
+    "totalPatienceInMinutes": 1,
+    "ImpatientThresholdInPercent": 30,
+    "FuriousThresholdInPercent": 60,
+    "dmg": 120,
+    "baseXpPointsAwarded": 2000,
+    "baseGoldAmountAwarded": 3000,
+    "weaponsChoices": ["Sacred Heirloom Swords", "Legendary Katana"],
+    "armorChoices": ["Masterpiece Armor", "Heirloom Imperial Armor"]
+  }
+]
