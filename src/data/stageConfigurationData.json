@@ -4,34 +4,54 @@
     "name": "Stage 1",
     "minPlayerLevelRange": 1,
     "maxPlayerLevelRange": 5,
-    "maxCustomerCountForStage": 4
+    "maxCustomerCountForStage": 4,
+    "customersInvolvedInStage":["Ashigaru","Kachi"],
+    "minEquipmentQualityRequire":"D",
+    "maxEquipmentQualityRequire":"C",
+    "spawnRateEveryXSeconds":30
   },
   {
     "_id": "State_02",
     "name": "Stage 2",
     "minPlayerLevelRange": 6,
     "maxPlayerLevelRange": 10,
-    "maxCustomerCountForStage": 6
+    "maxCustomerCountForStage": 6,
+    "customersInvolvedInStage":["Ashigaru","Kachi","Hatamoto"],
+    "minEquipmentQualityRequire":"D",
+    "maxEquipmentQualityRequire":"B",
+    "spawnRateEveryXSeconds":20
   },
   {
     "_id": "State_03",
     "name": "Stage 3",
     "minPlayerLevelRange": 11,
     "maxPlayerLevelRange": 15,
-    "maxCustomerCountForStage": 9
+    "maxCustomerCountForStage": 9,
+    "customersInvolvedInStage":["Kachi","Hatamoto"],
+    "minEquipmentQualityRequire":"C",
+    "maxEquipmentQualityRequire":"B",
+    "spawnRateEveryXSeconds":20
   },
   {
     "_id": "State_04",
     "name": "Stage 4",
     "minPlayerLevelRange": 16,
     "maxPlayerLevelRange": 20,
-    "maxCustomerCountForStage": 12
+    "maxCustomerCountForStage": 12,
+    "customersInvolvedInStage":["Hatamoto","Daimyo","Shogun"],
+    "minEquipmentQualityRequire":"B",
+    "maxEquipmentQualityRequire":"A",
+    "spawnRateEveryXSeconds":15
   },
   {
     "_id": "State_05",
     "name": "Stage 5",
     "minPlayerLevelRange": 21,
     "maxPlayerLevelRange": 25,
-    "maxCustomerCountForStage": 15
+    "maxCustomerCountForStage": 15,
+    "customersInvolvedInStage":["Ashigaru","Kachi","Hatamoto","Daimyo","Shogun"],
+    "minEquipmentQualityRequire":"A",
+    "maxEquipmentQualityRequire":"S",
+    "spawnRateEveryXSeconds":10
   }
 ]

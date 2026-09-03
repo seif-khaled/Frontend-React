@@ -9,5 +9,7 @@
   "mileStoneEach_N_Level": 5,
   "baseHealth": 100,
   "pointMultiplierPerLevel": 5,
-  "maxPointMultiplierCapForPlayer": 180
+  "maxPointMultiplierCapForPlayer": 180,
+  "profileImagePath":"",
+  "baselevelProfileRankImagePath":""
 }
