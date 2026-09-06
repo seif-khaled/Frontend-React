@@ -1,85 +1,168 @@
 [
-    {
-        "_id": "Smelter_01",
-        "name": "Smelter",
-        "description": "This is the smelter where players can smelt ores and make ingots required for some armor and weapons",
-        "maxLevel":2,
-        "maxWorkersForStation":2,
-        "goldAmountRequiredForUpgrade":4000,
-        "minItemsProducedPerInterval":2,
-        "itemsProduced":{"ironIngot":{
-            "intervalInSeconds":20
-        },"steelIngot":{
-            "intervalInSeconds":30
-        }}
-    },
-    {
-         "_id": "Weapon_Smith_01",
-        "name": "Weapon Smith",
-        "description": "This is the weapon smith where players can make weapons",
-        "maxLevel":2,
-        "maxWorkersForStation":2,
-        "goldAmountRequiredForUpgrade":4000,
-        "minItemsProducedPerInterval":2,
-        "itemsProduced":{"longSpear":{
-            "intervalInSeconds":20
-        },"lance":{
-            "intervalInSeconds":60
-        },"katana":{
-            "intervalInSeconds":30
-        },
-        "wakazashi":{
-            "intervalInSeconds":45
-        },"ceremonialTachi":{
-            "intervalInSeconds":120
-        },
-        "sacredHeirloomSwords":{
-            "intervalInSeconds":180
-        },"legendaryKatana":{
-            "intervalInSeconds":240
+  {
+    "_id": "Smelter_01",
+    "name": "Smelter",
+    "description": "This is the smelter where players can smelt ores and make ingots required for some armor and weapons",
+    "maxLevel": 2,
+    "maxWorkersForStation": 2,
+    "goldAmountRequiredForUpgrade": 4000,
+    "minItemsProducedPerInterval": 2,
+    "itemsProduced": {
+      "tamahaganeSteel": {
+        "intervalInSeconds": 20
+      },
+      "hochoTetsuIron": {
+        "intervalInSeconds": 30
+      },
+      "goldLeafFittings": {
+        "intervalInSeconds": 30
+      }
+    }
+  },
+  {
+    "_id": "Weapon_Smith_01",
+    "name": "Weapon Smith",
+    "description": "This is the weapon smith where players can make weapons",
+    "maxLevel": 2,
+    "maxWorkersForStation": 2,
+    "goldAmountRequiredForUpgrade": 4000,
+    "minItemsProducedPerInterval": 2,
+    "itemsProduced": {
+      "yami": {
+        "intervalInSeconds": 20
+      },
+      "longSpear": {
+        "intervalInSeconds": 20
+      },
+      "lance": {
+        "intervalInSeconds": 60
+      },
+      "katana": {
+        "intervalInSeconds": 30
+      },
+      "wakazashi": {
+        "intervalInSeconds": 45
+      },
+      "ceremonialTachi": {
+        "intervalInSeconds": 120
+      },
+      "sacredHeirloomSwords": {
+        "intervalInSeconds": 180
+      },
+      "legendaryKatana": {
+        "intervalInSeconds": 240
+      }
+    }
+  },
+  {
+    "_id": "Armorer_01",
+    "name": "Armorer",
+    "description": "This is the armorer station where players can make armor like plate-mail , heavy armor, .etc ",
+    "maxLevel": 2,
+    "maxWorkersForStation": 2,
+    "goldAmountRequiredForUpgrade": 4000,
+    "minItemsProducedPerInterval": 2,
+    "itemsProduced": {
+      "lightArmor": {
+        "intervalInSeconds": 20,
+        "requiredMaterials": {
+          "hochoTetsuIron": 2,
+          "curedLeather": 2,
+          "hempCord": 2
         }
+      },
+      "conicalIronHat": {
+        "intervalInSeconds": 30,
+        "requiredMaterials": {
+          "hochoTetsuIron": 3,
+          "curedLeather": 2,
+          "silkCord": 3,
+          "urushiLacquer": 2
+        }
+      },
+      "scaleMail": {
+        "intervalInSeconds": 30
+      },
+      "heavyArmor": {
+        "intervalInSeconds": 30
+      },
+      "mediumArmor": {
+        "intervalInSeconds": 30
+      },
+      "plateMail": {
+        "intervalInSeconds": 30
+      },
+      "kabutoHelmet": {
+        "intervalInSeconds": 30,
+        "requiredMaterials": {
+          "hochoTetsuIron": 2,
+          "curedLeather": 1,
+          "silkCord": 2,
+          "goldLeafFittings": 1
+        }
+      },
+      "heavyCeremonialArmor": {
+        "intervalInSeconds": 30,
+        "requiredMaterials": {
+          "hochoTetsuIron": 5,
+          "curedLeather": 4,
+          "silkCord": 5,
+          "urushiLacquer": 4,
+          "goldLeafFittings": 2
+        }
+      },
+      "masterpieceArmor": {
+        "intervalInSeconds": 30
+      },
+      "heirloomImperialArmor": {
+        "intervalInSeconds": 30
+      }
     }
-    },
-    {
-        "_id": "Armorer_01",
-        "name": "Armorer",
-        "description": "This is the armorer station where players can make armor like plate-mail , heavy armor, .etc ",
-        "maxLevel":2,
-        "maxWorkersForStation":2,
-        "goldAmountRequiredForUpgrade":4000,
-        "minItemsProducedPerInterval":2,
-        "itemsProduced":{"ironIngot":{
-            "intervalInSeconds":20
-        },"steelIngot":{
-            "intervalInSeconds":30
-        }}
-    },
-    {
-        "_id": "Tannery_01",
-        "name": "Tannery",
-        "description": "this is the tannery where players can make leather materials required for some armor and weapons",
-        "maxLevel":2,
-        "maxWorkersForStation":2,
-        "goldAmountRequiredForUpgrade":4000,
-        "minItemsProducedPerInterval":2,
-        "itemsProduced":{"ironIngot":{
-            "intervalInSeconds":20
-        },"steelIngot":{
-            "intervalInSeconds":30
-        }}
-    },
-    {
-        "_id": "Carpenter_01",
-        "name": "Carpenter",
-        "description": "this is the carpenter where players can make wooden materials required for some armor and weapons",
-        "maxLevel":2,
-        "maxWorkersForStation":2,
-        "goldAmountRequiredForUpgrade":4000,
-        "minItemsProducedPerInterval":2,
-        "itemsProduced":{"ironIngot":{
-            "intervalInSeconds":20
-        },"steelIngot":{
-            "intervalInSeconds":30
-        }}
+  },
+  {
+    "_id": "Tannery_01",
+    "name": "Tannery",
+    "description": "this is the tannery where players can make leather materials required for some armor and weapons",
+    "maxLevel": 2,
+    "maxWorkersForStation": 2,
+    "goldAmountRequiredForUpgrade": 4000,
+    "minItemsProducedPerInterval": 2,
+    "itemsProduced": {
+      "curedLeather": {
+        "intervalInSeconds": 20
+      },
+      "hempCord": {
+        "intervalInSeconds": 30
+      },
+      "silkCord": {
+        "intervalInSeconds": 30
+      },
+      "stingraySkin": {
+        "intervalInSeconds": 30
+      },
+      "urushiLacquer": {
+        "intervalInSeconds": 30
+      }
     }
+  },
+  {
+    "_id": "Carpenter_01",
+    "name": "Carpenter",
+    "description": "this is the carpenter where players can make wooden materials required for some armor and weapons",
+    "maxLevel": 2,
+    "maxWorkersForStation": 2,
+    "goldAmountRequiredForUpgrade": 4000,
+    "minItemsProducedPerInterval": 2,
+    "itemsProduced": {
+      "hardwoodShaft": {
+        "intervalInSeconds": 15
+      },
+      "magnoliaWood": {
+        "intervalInSeconds": 20
+      },
+      "tensionBamboo": {
+        "intervalInSeconds": 12
+      }
+    }
+  }
 ]
