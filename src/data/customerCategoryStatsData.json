@@ -8,8 +8,8 @@
     "dmg": 5,
     "baseXpPointsAwarded": 150,
     "baseGoldAmountAwarded": 300,
-    "weaponsChoices": ["Long Spears", "Bows"],
-    "armorChoices": ["Light Armor", "Conical Iron Hats"]
+    "weaponsChoices": ["longSpear", "yami"],
+    "armorChoices": ["lightArmor", "conicalIronHat"]
   },
   {
     "_id": "Kachi_01",
@@ -20,8 +20,8 @@
     "dmg": 10,
     "baseXpPointsAwarded": 300,
     "baseGoldAmountAwarded": 400,
-    "weaponsChoices": ["Katana", "Wakizashi", "Lance"],
-    "armorChoices": ["Heavy Armor", "Scale Mail"]
+    "weaponsChoices": ["katana", "wakazashi", "lance"],
+    "armorChoices": ["heavyArmor", "scaleMail"]
   },
   {
     "_id": "Hatamoto_01",
@@ -32,8 +32,8 @@
     "dmg": 35,
     "baseXpPointsAwarded": 500,
     "baseGoldAmountAwarded": 600,
-    "weaponsChoices": ["Lance", "Katana"],
-    "armorChoices": ["Medium Armor", "Plate Mail"]
+    "weaponsChoices": ["lance", "katana"],
+    "armorChoices": ["mediumArmor", "plateMail"]
   },
   {
     "_id": "Daimyo_01",
@@ -44,8 +44,8 @@
     "dmg": 60,
     "baseXpPointsAwarded": 1000,
     "baseGoldAmountAwarded": 1500,
-    "weaponsChoices": ["Ceremonial Tachi"],
-    "armorChoices": ["Kabuto Helmet", "Heavy Ceremonial Armor"]
+    "weaponsChoices": ["ceremonialTachi"],
+    "armorChoices": ["kabutoHelmet", "heavyCeremonialArmor"]
   },
   {
     "_id": "Shogun_01",
@@ -56,7 +56,7 @@
     "dmg": 120,
     "baseXpPointsAwarded": 2000,
     "baseGoldAmountAwarded": 3000,
-    "weaponsChoices": ["Sacred Heirloom Swords", "Legendary Katana"],
-    "armorChoices": ["Masterpiece Armor", "Heirloom Imperial Armor"]
+    "weaponsChoices": ["sacredHeirloomSwords", "legendaryKatana"],
+    "armorChoices": ["masterpieceArmor", "heirloomImperialArmor"]
   }
 ]
