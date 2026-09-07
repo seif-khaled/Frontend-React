@@ -1,0 +1,23 @@
+Create New Profile Flow
+
+1. Input Validation: The React UI captures the player's name and validates string length and format before sending it to the engine.
+2. Instantiation: ProfileManager generates a unique id (e.g., prof_[timestamp]) and creates or fetches a local device_seed from the browser to establish ownership.
+3. Base State Injection: Assigns starting values (gold: 500, initial unlocked ranks) and tags it with the CURRENT_SAVE_VERSION. Static master data (like weapon stats or image paths) is explicitly excluded.
+4. Persistence: Pushes the new profile into the localStorage array and sets its ID as the active session key.
+5. Engine Binding & Broadcast: GameService updates its internal activeProfile variable and immediately executes notify(). The custom hook hears this and forces React to render the main game UI instead of the creation form.
+
+Export File Flow (Manual Save Game)
+
+1. Data Extraction: ProfileManager copies the active profile from memory and strips away any hydrated master data, ensuring only dynamic variables remain.
+2. Cryptographic Signing: Converts the stripped profile to a JSON string and hashes it via HMAC using a hardcoded GAME_SECRET combined with the profile's device_seed.
+3. Packaging: Wraps the payload into an export-safe structure: { "data": { profileObject }, "signature": "hashed_string" }.
+4. Browser Trigger: Converts the final object into a JavaScript Blob, creates an invisible anchor (<a>) tag, assigns the blob URL, and programmatically clicks it to download a .json file to the user's local disk.
+
+Load Profile Flow (Manual File Import)
+
+1. File Ingestion: The user selects their exported .json file using a React <input type="file">. The FileReader API extracts the raw text.
+2. Parsing & Schema Validation: Converts the text to a JavaScript object and executes a structural guard check (e.g., via Zod) to confirm no critical arrays or numbers (like gold) were accidentally deleted.
+3. Security Validation (HMAC & Ownership): Recomputes the HMAC hash using the imported "data" object. If the newly computed hash does not match the file's "signature", the file was manually edited. If the file's device_seed does not match the browser's seed, it belongs to another player. Both cases throw a fallback error.
+4. Lazy Migration: Compares data.version against the engine's CURRENT_SAVE_VERSION. If outdated, the data is piped through iterative upgrade functions (e.g., 1.0 -> 1.1 -> 1.2) to safely inject new features like a gems currency without breaking the schema.
+5. Hydration: Merges the verified, migrated dynamic state with masterWarriors.json to attach fixed runtime attributes (base HP, sprite URLs, attack power).
+6. Engine Binding & Broadcast: Assigns the fully hydrated object to GameService.activeProfile, updates the active ID in localStorage, and calls notify() so React instantly displays the loaded state.
