@@ -45,9 +45,9 @@
     "numberOfLevels": 3
   },
   {
-    "_id": "Bow_Master_01",
-    "name": "Yumi Master",
-    "description": "Increase the speed by which you the smith crafts swords and armor by 5% per level, max 30%",
+    "_id": "Speed_Labour_01",
+    "name": "Labour Efficiency",
+    "description": "Increase the speed by which material crafting stations operate by 5% per level, max 30%",
     "icon": "quality_01.png",
     "numberOfPointsRequiredPerLevel": 2,
     "maxLevelPointsRequired": 4,
